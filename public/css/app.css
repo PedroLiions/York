@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600,700,800");
+.hero {
+  background: url("../img/heroBackground.jpg");
+  height: 420px; }
+
+.body {
+  font-family: "Fira Sans", sans-serif;
+  color: #323232; }
+
+.extrabold {
+  font-weight: 800; }
+
+.la-nav-bg {
+  background-color: #fafafa; }
+
+.nav-item {
+  font-size: 18px; }
+
+.footer {
+  color: #fafafa; }
+
+/*# sourceMappingURL=app.css.map */
