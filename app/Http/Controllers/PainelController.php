@@ -26,6 +26,4 @@ class PainelController extends Controller
         return view('painel.login');
     }
 
-    public function teste() {
-    }
 }
