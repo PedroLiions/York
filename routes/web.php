@@ -17,11 +17,11 @@
 // home
   Route::get('/', 'SiteController@home')->name('home');
 // contato
-  Route::get('/contato/', 'SiteController@contato')->name('contato');
+  Route::get('/contato', 'SiteController@contato')->name('contato');
 // clientes
-  Route::get('/clientes/', 'SiteController@clientes')->name('clientes');
+  Route::get('/clientes', 'SiteController@clientes')->name('clientes');
 // produtos
-  Route::get('/produtos/', 'ProdutoController@all')->name('produtos');
+  Route::get('/produtos', 'ProdutoController@all')->name('produtos');
 
 
 /*
@@ -45,7 +45,9 @@
 */
 
   // Login
-  Route::get('/painel/login/', 'PainelController@login')->name('login');
+  Route::get('/painel/login', 'PainelController@login')->name('login');
+  Route::post('/painel/logar', 'PainelController@logar')->name('logar');
 
   //
-  Route::get('/painel/home/', 'PainelController@index')->name('home');
+  Route::get('/painel/home', 'PainelController@index')->name('home');
+
