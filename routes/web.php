@@ -46,6 +46,7 @@
 
   // Login
   Route::get('/painel/login', 'PainelController@login')->name('login');
+  Route::post('/painel/logar', 'PainelController@logar')->name('logar');
 
   //
   Route::get('/painel/home', 'PainelController@index')->name('home');
