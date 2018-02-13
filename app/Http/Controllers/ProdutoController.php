@@ -10,4 +10,8 @@ class ProdutoController extends Controller
     public static function lastProducts(){
 
     }
+
+    public function all() {
+    	$produtos = Produto::all();
+    }
 }
