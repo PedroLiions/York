@@ -50,4 +50,3 @@
   //
   Route::get('/painel/home', 'PainelController@index')->name('home');
 
-  Route::get('/painel/teste', 'PainelController@teste')->name('teste');
